@@ -1,0 +1,207 @@
+.carrosel{
+    padding: 50px 45px ;
+    justify-content: space-around;
+    display: flex;
+    align-items: start;
+    background: #100069;
+    box-shadow: inset 0px -100px 100px #04001B;
+    height: 500px;
+}
+
+
+
+
+.slider{
+    border: 5px solid #d40000;
+    border-radius: 20px;
+    height: 290px;
+    width: 700px;
+    overflow: hidden;
+}
+
+
+.slides{
+    width: 400%;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+
+.slide{
+    transition: 1s;
+    width: 25%;
+    position: relative;
+}
+
+
+.slide img{
+    height: 290px;
+    width: 100%;
+}
+
+.manual-navigation{
+    padding: 20px;
+    position: absolute;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.manual-btn{
+    border: 2px solid #D40000;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.manual-btn:hover{
+    background: #fff;
+}
+
+
+#radio1:checked ~ .first{
+margin-left: 0;
+}
+#radio2:checked ~ .first{
+margin-left: -25%;
+}
+#radio4:checked ~ .first{
+margin-left: -50%;
+}
+#radio5:checked ~ .first{
+margin-left: -75%;
+}
+
+
+
+/*
+titulo
+*/
+
+.carrosel .title{
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+
+.carrosel .title h1{
+color: #D40000;
+font-size: 40px;
+}
+.carrosel h1, .carrosel h2{
+    font-family: "Montserrat", sans-serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+}
+
+.carrosel .title h2{
+    font-size: 27px;
+    color: #fff;
+    text-shadow: 2px 2px #04001B;
+
+}
+
+
+/*
+//////////////////////////////////////////////////////////////////////////////////////
+ RESPONSIVIDADE - RESPONSIVIDADE - RESPONSIVIDADE - RESPONSIVIDADE - RESPONSIVIDADE - 
+//////////////////////////////////////////////////////////////////////////////////////
+*/
+
+
+@media screen and (max-width: 1240px) {
+
+.carrosel{
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+
+.slider {
+    padding-bottom: 20px;
+    height: 800px;
+}
+
+.carrosel .title{
+    padding: 10px;
+    align-items: center;
+}
+
+}
+
+/*
+//////////////////////////////////////////////////////////////////////////////////////
+ RESPONSIVIDADE - RESPONSIVIDADE - RESPONSIVIDADE - RESPONSIVIDADE - RESPONSIVIDADE - 
+//////////////////////////////////////////////////////////////////////////////////////
+*/
+
+@media screen and (max-width: 930px){
+
+    .carrosel .slider{
+      width: 500px;
+    }
+
+    .carrosel .title h1{
+        font-size: 40px;
+    }
+
+    .carrosel .title{
+        padding-bottom: 30px;
+    }
+
+
+    .manual-btn{
+        border-radius: 100%;
+        border: 3px solid #D40000;
+        padding: 5px;
+    }
+
+
+    .manual-navigation{
+        width: 500px;
+    }
+
+}
+
+/*
+//////////////////////////////////////////////////////////////////////////////////////
+ RESPONSIVIDADE - RESPONSIVIDADE - RESPONSIVIDADE - RESPONSIVIDADE - RESPONSIVIDADE - 
+//////////////////////////////////////////////////////////////////////////////////////
+*/
+
+
+@media screen and (max-width: 670px){
+
+
+    .carrosel .title h1{
+        font-size: 35px;
+    }
+    .carrosel .title h2{
+        font-size: 20px;
+    }
+
+  
+
+    .carrosel .slider{
+
+        width: 100%;
+    }
+
+    .carrosel .manual-navigation{
+        justify-content: center;
+    }
+
+}

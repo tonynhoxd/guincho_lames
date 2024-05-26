@@ -1,0 +1,160 @@
+
+
+
+.cliente{
+    padding: 70px 45px;
+    background: #100069;
+    box-shadow: inset 0px 130px 100px #04001B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    color: #04001B;
+}
+
+.cliente .cliti{
+    color: #fff;
+    padding: 20px;
+}
+
+.cliente .cliti h6{
+    padding: 5px;
+    font-size: 20px;
+
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cliente .cliti h1{
+    font-size: 35px;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.cliente div{
+    text-align: center;
+}
+
+/*
+clite
+*/
+
+.cliente .cli div{
+    background: #dbd2ff;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 300px;
+    border: 3px solid #04001B;
+    border-radius: 30px;
+}
+
+.cliente .cli div h1::before,.cliente .cli div h1::after{
+    content: " '' ";
+}
+
+.cliente .cli div h1{
+    padding: 10px;
+    font-size: 21px;
+    overflow: hidden;
+    height: 85px;
+
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+.cliente .cli div h2{
+    padding: 10px 10px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-top: 3px solid #04001B;
+
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.cliente .cli div h2 img{
+    padding: 5px;
+    border: 3px solid #04001B;
+    background: #fff;
+    border-radius: 50px;
+    width: 50px;
+}
+
+.cliente .cli{
+    width: 100%;
+    display: flex; 
+    justify-content: space-around;
+}
+
+
+/*
+//////////////////////////////////////////////////////////////////////////////////////
+ RESPONSIVIDADE - RESPONSIVIDADE - RESPONSIVIDADE - RESPONSIVIDADE - RESPONSIVIDADE - 
+//////////////////////////////////////////////////////////////////////////////////////
+*/
+
+
+@media screen and (max-width: 1115px) {
+
+.cliente .cli{
+    display: flex;
+    gap: 20px;
+}
+
+.cliente .cli div{
+max-width: 100%;
+}
+
+.cliente .cli div h1{
+font-size: 20px;
+}
+
+.cliente .cli div h2{
+font-size: 20px;
+}
+
+.cliente .cli div h2 img{
+width: 40px;
+}
+
+
+
+}
+
+/*
+//////////////////////////////////////////////////////////////////////////////////////
+ RESPONSIVIDADE - RESPONSIVIDADE - RESPONSIVIDADE - RESPONSIVIDADE - RESPONSIVIDADE - 
+//////////////////////////////////////////////////////////////////////////////////////
+*/
+
+
+@media screen and (max-width: 670px){
+
+.cliente .cli{
+    flex-direction: column;
+    align-items: center;
+}
+
+
+}

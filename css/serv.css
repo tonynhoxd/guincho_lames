@@ -1,0 +1,139 @@
+
+.serv{
+    background: #04001B;
+    color: #fff;
+    padding: 70px 90px;
+    display: grid;
+    gap: 100px;
+} 
+
+.serv .itesv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    gap: 20px;
+    display: flex;
+}
+
+.serv .itesv img{
+    width: 300px;
+    height: 280px;
+}
+
+.serv .itesv div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    gap: 15px;
+}
+
+
+.serv .itesv h1{
+    opacity: 95%;
+    padding: 10px 0px;
+    text-shadow: 3px 3px forestgreen;
+    border-top: 7px solid forestgreen;
+    font-size: 75px;
+    
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.serv .itesv p{
+    opacity: 90%;
+    font-size: 18px;
+
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.serv .es{
+    justify-content: start;
+}
+
+.serv .di{
+    justify-content: end;
+}
+
+
+/*
+//////////////////////////////////////////////////////////////////////////////////////
+ RESPONSIVIDADE - RESPONSIVIDADE - RESPONSIVIDADE - RESPONSIVIDADE - RESPONSIVIDADE - 
+//////////////////////////////////////////////////////////////////////////////////////
+*/
+
+
+@media screen and (max-width: 1093px) {
+
+.serv .itesv h1{
+font-size: 50px;
+}
+
+.serv .itesv p{
+    font-size: 15px;
+}
+  
+}
+
+/*
+//////////////////////////////////////////////////////////////////////////////////////
+ RESPONSIVIDADE - RESPONSIVIDADE - RESPONSIVIDADE - RESPONSIVIDADE - RESPONSIVIDADE - 
+//////////////////////////////////////////////////////////////////////////////////////
+*/
+
+@media screen and (max-width: 930px){
+
+.serv{
+    padding: 0 45px;
+}
+
+.serv .itesv{
+    max-width: 800px;
+}
+
+.serv .itesv img{
+    display: none;
+}
+
+.serv .itesv h1{
+    font-size: 60px;
+}
+
+.serv .itesv p{
+    font-size: 27px;
+}
+
+
+}
+
+/*
+//////////////////////////////////////////////////////////////////////////////////////
+ RESPONSIVIDADE - RESPONSIVIDADE - RESPONSIVIDADE - RESPONSIVIDADE - RESPONSIVIDADE - 
+//////////////////////////////////////////////////////////////////////////////////////
+*/
+
+
+@media screen and (max-width: 670px){
+
+    .serv{
+        padding: 20px 45px;
+    }
+
+    .serv .itesv h1{
+        border-top: 0px;
+        border-bottom: 5px solid forestgreen;
+    }
+
+
+    .serv .itesv p{
+        font-size: 20px;
+    }
+
+}    

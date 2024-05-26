@@ -1,0 +1,67 @@
+
+.Serviços{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 50px;
+    padding: 0 45px;
+    padding-bottom: 50px;
+}
+
+
+
+.Serviços .item{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: end;
+text-align: center;
+gap: 35px;
+
+background: #10006D;
+border-bottom: 5px solid #fff;
+color: #fff;
+width: 100%;
+cursor: pointer;
+padding: 20px;
+}
+
+.Serviços .item ion-icon{
+    transition: 0.2s;
+    border: 3px solid #10006D;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 50px;
+}
+
+.Serviços .item h2{
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 22px;
+}
+
+
+.Serviços .item:hover  ion-icon{
+    border-color: #fff;
+}
+
+
+/*
+//////////////////////////////////////////////////////////////////////////////////////
+ RESPONSIVIDADE - RESPONSIVIDADE - RESPONSIVIDADE - RESPONSIVIDADE - RESPONSIVIDADE - 
+//////////////////////////////////////////////////////////////////////////////////////
+*/
+
+
+
+@media screen and (max-width: 1115px) {
+
+    .Serviços{
+        display: none;
+    }    
+
+
+}

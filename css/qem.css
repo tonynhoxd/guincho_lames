@@ -1,0 +1,136 @@
+/*
+ quem somos
+*/
+
+.quem{
+    padding: 45px 45px;
+    box-shadow: 0px -120px 0px 50px #04001b;
+    background: #04001b;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.quem .text{
+    display: flex;
+}
+
+.quem .text div{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quem h1{
+    color: #fff;
+    text-shadow: 3px 3px #F81200;
+    padding: 20px;
+    font-size: 50px;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.quem p{
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    text-shadow: 3px 3px #0b004b;
+    color: #fff;
+    font-size: 20px;
+}
+
+.quem  img{
+    border-radius: 20px;
+    width: 250px;
+    box-shadow: 5px 5px #0a00428f;
+}
+
+/*
+ nosso atendimento
+*/
+
+
+
+
+@media screen and (max-width: 1115px) {
+
+    .quem{
+        border-top: 7px solid #F81200;
+        box-shadow: 0 0 0 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .quem h1{
+        font-size: 45px;
+    }
+   
+
+    .quem p{
+        font-size: 15px;
+    }
+}
+
+/*
+//////////////////////////////////////////////////////////////////////////////////////
+ RESPONSIVIDADE - RESPONSIVIDADE - RESPONSIVIDADE - RESPONSIVIDADE - RESPONSIVIDADE - 
+//////////////////////////////////////////////////////////////////////////////////////
+*/
+
+
+ @media screen and (max-width: 930px){
+
+.quem .text{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+}
+
+    .quem .text img{
+        display: none;
+    }
+
+    .quem h1{
+        font-size: 60px;
+    }
+   
+
+    .quem p{
+        font-size: 27px;
+    }
+
+} 
+
+
+/*
+//////////////////////////////////////////////////////////////////////////////////////
+ RESPONSIVIDADE - RESPONSIVIDADE - RESPONSIVIDADE - RESPONSIVIDADE - RESPONSIVIDADE - 
+//////////////////////////////////////////////////////////////////////////////////////
+*/
+
+
+@media screen and (max-width: 670px){
+.quem{
+    padding: 50px 30px;
+}
+
+
+.quem .text h1{
+    padding: 10px 0;
+    font-size: 50px;
+    border-bottom: 3px solid #F81200;
+}
+
+.quem .text p{
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+}

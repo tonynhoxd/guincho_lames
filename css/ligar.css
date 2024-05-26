@@ -1,0 +1,156 @@
+
+.ligar{
+    padding: 60px 45px;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+
+.ligar div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;    
+}
+
+.ligar h1{
+    font-size: 50px;
+    color: #fff;
+
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ligar p{
+    max-width: 750px;
+    font-size: 18px;
+    color: #fff;
+
+
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ligar a{
+    transition: 0.2s;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 15px;
+    background: #fff;
+    color: #C71B1B;
+    border: 3px solid #C71B1B;
+    font-size: 30px;
+
+
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ligar a:hover{
+ background: #C71B1B;
+ border-color: #fff;
+ color: #fff;
+}
+
+
+/*
+//////////////////////////////////////////////////////////////////////////////////////
+ RESPONSIVIDADE - RESPONSIVIDADE - RESPONSIVIDADE - RESPONSIVIDADE - RESPONSIVIDADE - 
+//////////////////////////////////////////////////////////////////////////////////////
+*/
+
+
+@media screen and (max-width: 1093px) {
+
+    .ligar{
+        height: 100%;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .ligar div{
+        align-items: center;
+        height: 100%;
+    }
+    .ligar div p{
+        max-width: 750px;
+        font-size: 17px;
+    }
+
+    .ligar h1{
+        font-size: 70px;
+        padding: 2px;
+        text-align: center;
+    }
+
+}    
+
+/*
+//////////////////////////////////////////////////////////////////////////////////////
+ RESPONSIVIDADE - RESPONSIVIDADE - RESPONSIVIDADE - RESPONSIVIDADE - RESPONSIVIDADE - 
+//////////////////////////////////////////////////////////////////////////////////////
+*/
+
+@media screen and (max-width: 930px){
+
+
+.ligar{
+    height: 100%;
+    gap: 30px;
+    justify-content: center;
+}
+
+.ligar div{
+    align-items: center;
+    height: 100%;
+    padding: 10px;
+}
+.ligar div p{
+    max-width: 750px;
+    font-size: 25px;
+}
+
+.ligar h1{
+    font-size: 100px;
+    padding: 10px;
+    text-align: center;
+}
+
+.ligar a{
+    font-size: 50px;
+}
+
+}
+
+
+/*
+//////////////////////////////////////////////////////////////////////////////////////
+ RESPONSIVIDADE - RESPONSIVIDADE - RESPONSIVIDADE - RESPONSIVIDADE - RESPONSIVIDADE - 
+//////////////////////////////////////////////////////////////////////////////////////
+*/
+
+
+@media screen and (max-width: 670px){
+
+.ligar div p{
+    font-size: 17px;
+}
+
+.ligar div h1{
+    font-size: 70px;
+}
+
+.ligar a{
+    font-size: 30px;
+}
+
+}
